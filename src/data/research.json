@@ -1,0 +1,26 @@
+[
+  {
+    "title": "深度学习",
+    "content": "研究方向主要包括医学图像处理、超分辨率图像增强、文字识别、3D视觉、SLAM，以及目标检测、跟踪和识别等。",
+    "img": "../assets/images/deepLearning.png",
+    "alt": "Deep Learning"
+  },
+  {
+    "title": "软件开发",
+    "content": "在这里，你能得到国内工业界最先进的软件开发流程，研究方向包括跨端（小程序、安卓、iOS等）应用、Web 前端应用、后端应用等。",
+    "img": "../assets/images/software.png",
+    "alt": "Software"
+  },
+  {
+    "title": "硬件开发",
+    "content": "包括嵌入式程序开发，硬件系统设计，IoT系统设计与开发等。",
+    "img": "../assets/images/hardware.png",
+    "alt": "Hardware"
+  },
+  {
+    "title": "物联网",
+    "content": "物联网与人工智能相互结合，应用于城市公共安全、环境监控、智能交通、智能家居、健康监测等多个领域，物联网+互联网=智慧地球。",
+    "img": "../assets/images/IOT.png",
+    "alt": "IOT"
+  }
+]

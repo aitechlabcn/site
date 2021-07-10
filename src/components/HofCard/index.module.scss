@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  align-items: center;
+  min-height: 280px;
+  background-color: white;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  border-radius: 1rem;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    max-width: 180px;
+    max-height: 180px;
+    background-size: contain;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6rem;
+
+    @media screen and (max-width: 576px) {
+      align-items: center;      
+    }
+
+    h3 {
+      margin-bottom: 18px;
+
+    
+    }
+  }
+}

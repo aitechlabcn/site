@@ -1,0 +1,28 @@
+.container {
+  width: auto;
+
+  article {
+    padding: 20px;
+    margin: 0 auto 60px;
+    
+    @media screen and(min-width: 1024px) {
+      padding: 20px 40px;
+      max-width: 1000px;
+    }
+
+    @media screen and(min-width: 600px) {
+      padding: 100px 0 40px;
+      max-width: 800px;
+    }
+
+    .item {
+      margin: 0 0 3rem;
+
+      .content {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin: 0 0 1rem;
+      }
+    } 
+  }
+}

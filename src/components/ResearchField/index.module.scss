@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  height: 280px;
+  background-color: white;
+  padding: 0 30px;
+  margin-bottom: 30px;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+    max-width: 100px;
+    max-height: 100px;
+    background-size: contain;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      margin-bottom: 24px;
+    }
+  }
+}

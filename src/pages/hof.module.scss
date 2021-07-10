@@ -1,0 +1,26 @@
+.container {
+  width: auto;
+  background-color: #f0f2f5;
+
+  main {
+    padding: 20px;
+    margin: 0 auto;
+    
+    @media screen and(min-width: 1024px) {
+      padding: 20px 40px;
+      max-width: 1000px;
+    }
+
+    @media screen and(min-width: 600px) {
+      padding: 100px 0 40px;
+      max-width: 800px;
+    }
+
+    .desc {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin: 0 0 1.5rem;
+      color: #5F6368;
+    }
+  }
+}

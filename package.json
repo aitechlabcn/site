@@ -1,0 +1,51 @@
+{
+  "name": "aitechlab-site",
+  "private": true,
+  "description": "AITechLab Site.",
+  "version": "0.1.0",
+  "author": "luhc228",
+  "dependencies": {
+    "antd": "^4.16.6",
+    "classnames": "^2.3.1",
+    "gatsby": "3.6.2",
+    "gatsby-plugin-gatsby-cloud": "^2.6.1",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-manifest": "^3.6.0",
+    "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-sass": "^4.8.0",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-transformer-json": "^3.8.0",
+    "gatsby-transformer-remark": "^4.6.0",
+    "gatsby-transformer-sharp": "^3.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-slick": "^0.28.1",
+    "sass": "^1.35.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/ali-oss": "^6.0.9",
+    "@types/fs-readdir-recursive": "^1.0.0",
+    "@types/react-helmet": "^6.1.1",
+    "ali-oss": "^6.15.2",
+    "fs-readdir-recursive": "^1.1.0",
+    "prettier": "2.2.1",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "upload:oss": "ts-node ./scripts/uploadBuildAssets.ts",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}

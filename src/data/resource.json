@@ -1,0 +1,82 @@
+[
+  {
+    "mainTitle": "深度学习资源",
+    "id": "deepLearning",
+    "links": [
+      {
+        "title": "PyTorch",
+        "link": "https://pytorch.org"
+      },
+      {
+        "title": "TensorFlow",
+        "link": "https://www.tensorflow.org/"
+      }
+    ]
+  },
+  {
+    "mainTitle": "软件开发资源",
+    "id": "software",
+    "links": [
+      {
+        "title": "React",
+        "link": "https://reactjs.org/"
+      },
+      {
+        "title": "ICE",
+        "link": "https://ice.work/"
+      },
+      {
+        "title": "Rax",
+        "link": "https://rax.js.org/"
+      },
+      {
+        "title": "AppWorks",
+        "link": "https://appworks.site/"
+      },
+      {
+        "title": "Spring",
+        "link": "https://spring.io/"
+      },
+      {
+        "title": "Node.js",
+        "link": "https://nodejs.org/"
+      }
+    ]
+  },
+  {
+    "mainTitle": "硬件开发资源",
+    "id": "hardware",
+    "links": [
+      {
+        "title": "蓝桥云课（原实验楼）",
+        "link": "https://www.lanqiao.cn/courses/"
+      },
+      {
+        "title": "意法半导体",
+        "link": "https://www.stmcu.com.cn/"
+      },
+      {
+        "title": "得捷电子",
+        "link": "https://www.digikey.cn/?utm_source=baidu&utm_medium=cpc&utm_campaign=Brandzone&utm_content=Brand%20Zone%20PC&utm_term=Headline"
+      },
+      {
+        "title": "21IC电子网",
+        "link": "https://www.21ic.com/"
+      },
+      {
+        "title": "世纪电源网社区",
+        "link": "https://bbs.21dianyuan.com/"
+      }
+    ]
+  },
+  {
+    "mainTitle": "物联网资源",
+    "id": "IOT",
+    "links": [
+      {
+        "title": "阿里云物联网",
+        "link": "https://iot.aliyun.com/"
+      }
+    ]
+  }
+]
