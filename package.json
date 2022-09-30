@@ -47,5 +47,6 @@
     "clean": "gatsby clean",
     "upload:oss": "ts-node ./scripts/uploadBuildAssets.ts",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  }
+  },
+  "packageManager": "npm@8.5.0"
 }
