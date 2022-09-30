@@ -40,7 +40,7 @@ function Footer() {
       <div className={styles.bottom}>
         Copyright © 2021 - Present. <span>❤</span> AITechLab.
         <br />
-        Powered by Gatsby.js
+        <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备16018122号-4</a>
       </div>
     </div>
   );
